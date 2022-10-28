@@ -8,6 +8,7 @@ import Shaolin from "./pages/MartialArts/Shaolin";
 import Taichi from "./pages/MartialArts/Taichi";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -18,11 +19,12 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/Programs" element={<Programs />} />
-                    <Route path="/" element={<Muaythai />} />
-                    <Route path="/" element={<Shaolin />} />
-                    <Route path="/" element={<Taichi />} />
+                    <Route path="/muaythai" element={<Muaythai />} />
+                    <Route path="/shaolin" element={<Shaolin />} />
+                    <Route path="/taichi" element={<Taichi />} />
                     <Route path="*" element={<Error />} />
                 </Routes>
+                <Footer />
             </BrowserRouter>
         </div>
     );

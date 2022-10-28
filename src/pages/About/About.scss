@@ -1,0 +1,28 @@
+.About {
+    .main {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+        text-align: left;
+        .left {
+            width: 50%;
+            .first {
+                margin: 1rem 0;
+            }
+            .second {
+                background-color: rgb(67, 7, 67);
+                color: goldenrod;
+                padding: 1rem;
+            }
+        }
+        .right {
+            background-color: rgb(67, 7, 67);
+            color: goldenrod;
+            padding: 1rem;
+            width: 30%;
+            h2 {
+                margin: 10px 0 1rem 0;
+            }
+        }
+    }
+}
